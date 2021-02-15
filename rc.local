@@ -1,0 +1,15 @@
+#!/bin/bash
+
+/usr/bin/neofetch > /etc/issue
+
+date >> /etc/issue
+
+hg=$(top -bn1 | head -4)
+echo "$hg " >> /etc/issue
+title="Filesystem                 Size  Used Avail Use% Mounted on"
+diskinfo=$(df -h | grep -e  /home  -e/data -e /dev/sda8)
+echo "$title"  >> /etc/issue
+echo "$diskinfo" >> /etc/issue
+
+
+chvt 2
