@@ -1,0 +1,9 @@
+#!/bin/bash
+
+find_init=$(/home/bhaskar/bin/find_init)
+
+if [[ $find_init == "SYSTEMD" ]];then
+	echo "Do not run pia-daemon as it might have started by systemd services"
+else
+		/opt/piavpn/bin/pia-daemon
+fi
