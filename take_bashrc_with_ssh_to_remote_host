@@ -1,0 +1,5 @@
+#The remote_bashrc can be replaced with the actual user bashrc
+
+Host *
+LocalCommand scp ~/.remote_bashrc %r@%n:/home/%r
+RemoteCommand bash --rcfile "~/.remote_bashrc"
