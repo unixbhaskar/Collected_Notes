@@ -1,0 +1,3 @@
+* TODO This repo contains all the notes about technical things.
+
+* TODO Important stuff comes first and in one place
