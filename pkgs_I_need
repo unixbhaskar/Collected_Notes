@@ -1,8 +1,8 @@
 vim
-vifm
+vifm(optional)
 vimb
 git
-surf
+surf(optanal)
 mpv
 cmus
 zathura
@@ -10,7 +10,7 @@ i3
 i3blocks
 i3lock
 dmenu
-neofetch
+neofetch(not required/fancy stuff)
 etckeeper
 lsof
 htop
@@ -25,7 +25,7 @@ lvm2
 cronie
 isync
 calcurse
-kmon
+kmon(not mandatory/fancy)
 pass
 curl
 scrot
@@ -35,6 +35,11 @@ imgmagick
 psutils
 moreutils
 findutils
-compilers
+compilers(i.e gcc,llvm,clang)
 emacs
 taskwarrior
+nyxt
+notmuch
+mu
+procmail
+getmail(optional)
