@@ -1,0 +1,17 @@
+[R]	 Redirect you can add an =301 or =302 to change the type.
+
+[F]	 Forces the url to be forbidden. 403 header
+
+[G]	 Forces the url to be gone 401 header
+[L]	 Last rule. (You should use this on all your rules that don't link together)
+[N]	 Next round. Rerun the rules again from the start
+
+[C]	 Chains a rewrite rule together with the next rule.
+[T]	 use T=MIME-type to force the file to be a mime type
+[NS]	 Use if no sub request is requested
+[NC]	 Makes the rule case INsensitive
+[QSA]	 Query String Append use to add to an existing query string
+[NE]	 Turns of normal escapes that are default in the rewriterule
+[PT]	 Pass through to the handler (together with mod alias)
+[S]	 Skip the next rule S=3 skips the next 3 rules
+[E]	 E=var sets an enviromental variable that can be ca
