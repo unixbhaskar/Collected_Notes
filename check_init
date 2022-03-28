@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Checking the init system of the machine
 find_init=$(/home/bhaskar/bin/find_init)
 
 if [[ $find_init == "SYSTEMD" ]];then
