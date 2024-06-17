@@ -1,3 +1,4 @@
+```
 HANDY ONE-LINE SCRIPTS FOR AWK                             21 August 2019
 Compiled by Eric Pement                                      version 0.28
 
@@ -5,7 +6,7 @@ Latest version of this file (in English) is usually at:
    http://www.pement.org/awk/awk1line.txt
 
 This file is also available in other languages:
-   Chinese  - http://www.pement.org/awk/awk1line_zh-CN.txt   
+   Chinese  - http://www.pement.org/awk/awk1line_zh-CN.txt
 
 USAGE:
 
@@ -23,13 +24,13 @@ this symbol must be doubled (%%) to yield a single percent sign visible
 to awk compiled for Windows or MS-DOS. (Again, this warning does not
 apply if your shell is bash, ksh, or a standard Unix shell.)
 
-I learned awk in a DOS environment, so some of the notes warn of DOS 
+I learned awk in a DOS environment, so some of the notes warn of DOS
 and Unix newline issues. "\n" represents a newline (LF) in awk.
 
 There are 4 versions of awk in common use: original awk (1977), new awk
 or nawk (1985), mawk (a variant of new awk), and GNU awk or gawk (still
 actively maintained). These scripts will run under nawk, the most common
-version in the Unix world. 
+version in the Unix world.
 
 If an example runs only on GNU awk, the command 'gawk' will be used. I
 consider a one-line script to be 65 characters or less. Shorter scripts
@@ -124,7 +125,7 @@ ARRAY CREATION:
 
  # These next 2 entries are not one-line scripts, but the technique
  # is so handy that it merits inclusion here.
- 
+
  # create an array named "month", indexed by numbers, so that month[1]
  # is 'Jan', month[2] is 'Feb', month[3] is 'Mar' and so on.
  split("Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec", month, " ")
@@ -330,3 +331,4 @@ USE OF '\t' IN awk SCRIPTS: For clarity in documentation, I have used
 awk should recognize this abbreviation.
 
 #---end of file---
+```
